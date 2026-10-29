@@ -1,20 +1,23 @@
-﻿- company: "Rajendra Prasad Hall of Residence, IIT Kharagpur"
-  role: "Secretary, Sports & Games"
-  duration: "July 2025 – Apr 2026"
-  location: "IIT Kharagpur, India"
 
-  bullet_points:
-    - "Managed the complete sports of the hall inventory, logistics, and smooth execution of all sporting activities"
-    - "Organized multiple intra-hall sports events, ensuring event planning, scheduling, and on-ground operations"
-    - "Led publicity and participant engagement initiatives through digital and offline campaigns"
+company: "Rajendra Prasad Hall of Residence, IIT Kharagpur"
+role: "Secretary, Sports & Games"
+duration: "July 2025 – April 2026"
+location: "IIT Kharagpur, India"
 
-  tech_stack:
-    - Event Management
-    - Logistics & Inventory
+bullet_points:
+  - "Managed sports inventory, equipment allocation, and logistics for hall sporting activities"
+  - "Organized intra-hall sports events, coordinating planning, scheduling, and on-ground operations"
+  - "Led publicity and participant engagement initiatives through digital and offline campaigns"
 
-  tags:
-    - sports-management
-    - logistics
-    - event-planning
-    - operations
-    - leadership
+tech_stack:
+  - Event Management
+  - Logistics & Inventory
+  - Sports Operations
+  - Event Promotion
+
+tags:
+  - sports-management
+  - logistics
+  - event-planning
+  - operations
+  - leadership

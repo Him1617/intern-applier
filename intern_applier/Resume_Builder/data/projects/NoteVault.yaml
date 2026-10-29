@@ -1,0 +1,34 @@
+
+- name: "NoteVault – Secure Notes Management"
+  tagline: "Secure notes management application with authenticated CRUD operations and keyword-based search"
+
+  bullet_points:
+    - "Implemented secure authentication using JWT, bcrypt, and 4+ protected API endpoints for user-specific notes"
+    - "Built 8+ RESTful APIs with Express Router and error-handling middleware for authenticated CRUD workflows"
+    - "Implemented keyword-based search and editing features for efficient note retrieval and management"
+    - "Optimized frontend-backend communication using Axios and React Router for authenticated navigation and API interactions"
+    - "Designed validated Mongoose schemas for 2 MongoDB collections, supporting secure storage of user and note data"
+
+  tech_stack:
+    - React.js
+    - Node.js
+    - Express.js
+    - MongoDB
+    - Mongoose
+    - JWT
+    - Bcrypt
+    - Axios
+
+  github_link: "https://github.com/Him1617"
+  live_link: "https://notesapp-1-i7kw.onrender.com"
+
+  duration: "September 2025 – October 2025"
+
+  tags:
+    - full-stack
+    - secure-notes
+    - authentication
+    - crud
+    - rest-api
+    - mongodb
+    - mern

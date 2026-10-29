@@ -1,0 +1,33 @@
+
+- name: "PathPilot – Pathfinding Visualizer"
+  tagline: "Interactive pathfinding visualizer for graph traversal, shortest-path algorithms, and maze generation"
+
+  bullet_points:
+    - "Developed an interactive pathfinding visualizer implementing BFS, DFS, and Dijkstra's algorithm on a dynamic grid with animated traversal"
+    - "Implemented Recursive Division Maze Generation and dynamic obstacle creation to visualize pathfinding across mazes"
+    - "Visualized visited nodes, shortest paths, and configurable animation speeds for intuitive algorithm comparison"
+    - "Engineered a custom Min-Heap Priority Queue and path reconstruction logic to support weighted graph traversal algorithms"
+
+  tech_stack:
+    - JavaScript
+    - HTML5
+    - CSS3
+    - Breadth-First Search (BFS)
+    - Depth-First Search (DFS)
+    - Dijkstra's Algorithm
+    - Min-Heap
+    - Graph Algorithms
+
+  github_link: "https://github.com/Him1617"
+  live_link: "https://path-pilot-pathfinder-visualizer.vercel.app"
+
+  duration: "May 2026 – June 2026"
+
+  tags:
+    - algorithms
+    - pathfinding
+    - visualization
+    - graph-algorithms
+    - data-structures
+    - maze-generation
+    - javascript

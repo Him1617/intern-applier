@@ -13,8 +13,8 @@ prompts:
 
       STAGE 1 (THE TRANSLATOR Calibration):
       - Target Role: {role} at {company}
-      - Candidate Profile: 3rd-year undergraduate at IIT Kharagpur (CGPA 8.39) specializing in Applied Machine Learning, GNN Anomaly Detection, and Time-Series Forecasting.
-      - Core Differentiators: Scaled graph anomaly pipelines on 203K+ Bitcoin nodes (FraudSentinel), hybrid ARIMA-LSTM portfolio engines, quantitative rigor from IIT KGP.
+      - Candidate Profile: 2nd-year B.Tech (ECE) undergraduate at IIT Kharagpur (CGPA 8.24) specializing in Full-Stack Web Development (MERN), Scalable REST APIs, and Data Structures & Algorithms.
+      - Core Differentiators: CareConnect healthcare platform with 25+ REST APIs & Razorpay, NoteVault secure note platform with JWT/bcrypt, CineVerse movie discovery engine, PathPilot visualizer, Codeforces Pupil (1219, Top 10% Div 2), 300+ DSA problems solved.
 
       STAGE 2 (THE ATS X-RAY):
       - Key Keywords from JD: {keywords_str}

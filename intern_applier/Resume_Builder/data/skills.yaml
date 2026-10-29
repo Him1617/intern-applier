@@ -1,65 +1,44 @@
-﻿skills:
-  languages_and_databases:
+skills:
+  programming_languages:
+    - JavaScript
+    - TypeScript
     - Python
-    - SQL
-    - PostgreSQL
-    - MySQL
     - C
     - C++
-    - JavaScript
-    - HTML
-    - CSS
+    - HTML5
+    - CSS3
+    - MySQL
 
-  data_analytics_and_wrangling:
-    - Pandas
-    - NumPy
-    - Exploratory Data Analysis (EDA)
-    - Data Cleaning
-    - Feature Engineering
-    - Advanced Excel
+  libraries_and_frameworks:
+    - React.js
+    - Node.js
+    - Express.js
+    - C++ STL
+    - Tailwind CSS
+    - Bootstrap
+    - EJS
+    - GSAP
+    - JWT
+    - Axios
+    - Bcrypt
 
-  data_visualization_and_bi:
-    - Plotly
-    - Matplotlib
-    - Seaborn
-    - Power BI
-    - Tableau
-
-  machine_learning_and_modeling:
-    - PyTorch
-    - PyTorch Geometric
-    - scikit-learn
-    - XGBoost
-    - LightGBM
-    - Graph Neural Networks (GNN)
-    - Time Series (ARIMA, LSTM)
-    - FAISS
-    - TensorFlow
-    - Keras
-    - NLTK
-    - Deep Learning
-    - Reinforcement Learning
-    - Optimization Models and Algorithms
-
-  tools_and_infrastructure:
+  databases_and_tools:
+    - MongoDB
+    - Mongoose
     - Git
     - GitHub
-    - Jupyter Notebooks
-    - VS Code
-    - FastAPI
-    - REST APIs
-    - MLflow
-    - Anaconda
-    - Google Colaboratory
-    - Kaggle
-    - Docker
-    - Drizzle ORM
-    - Clerk Authentication
+    - Postman
     - Vercel
-    - Next.js
-    - React.js
-    - Tailwind CSS
-    - GSAP
-    - Locomotive Scroll
-    - Desmos
-    - Figma
+    - Netlify
+    - Cloudinary
+    - Visual Studio Code
+    - Blender
+    - Adobe Photoshop
+    - DaVinci Resolve
+
+  core_competencies:
+    - Data Structures and Algorithms
+    - Competitive Programming
+    - Object-Oriented Programming
+    - Full-Stack Web Development
+    - RESTful API Development

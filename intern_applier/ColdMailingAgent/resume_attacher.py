@@ -10,18 +10,6 @@ import os
 from pathlib import Path
 import config
 
-import io
-if sys.stdout and sys.stdout.encoding != 'utf-8':
-    try:
-        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-    except Exception:
-        pass
-if sys.stderr and sys.stderr.encoding != 'utf-8':
-    try:
-        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
-    except Exception:
-        pass
-
 # Add Resume_Builder to sys.path
 RESUME_BUILDER_PATH = config.RESUME_BUILDER_DIR
 if str(RESUME_BUILDER_PATH) not in sys.path:
@@ -30,9 +18,8 @@ if str(RESUME_BUILDER_PATH) not in sys.path:
 
 def get_tailored_resume_for_company(
     company: str,
-    domain: str = "Software Engineering & Web Systems",
-    role: str = "Software Engineering Intern",
-    prompt_id: str = "google_xyz_surgeon",
+    domain: str = "Full-Stack & Software Engineering",
+    role: str = "Software Development Intern",
 ) -> tuple[str, list[str]]:
     """
     Generate or locate a tailored 1-page PDF resume for the given company.
@@ -40,7 +27,7 @@ def get_tailored_resume_for_company(
     Returns:
         (pdf_path, selected_projects)
     """
-    default_projects = ["AI Mock Interview Platform", "Online Code Execution Platform"]
+    default_projects = ["CareConnect – Healthcare Appointment Platform", "CineVerse – Movie Discovery Platform"]
 
     if not config.AUTO_GENERATE_TAILORED_RESUME:
         return config.STATIC_RESUME_PATH, default_projects
@@ -55,20 +42,20 @@ Role: {role}
 Domain: {domain}
 
 About the Role:
-We are looking for a Software Engineering / Full-Stack Intern to join our engineering and product teams.
-You will work on full-stack web platforms, backend APIs, distributed system components, database schemas, and modern scalable architecture.
+We are looking for a Software Development / Full-Stack Intern to join our core engineering teams.
+You will work on full-stack web applications, scalable RESTful APIs, database design, and frontend/backend features.
 
 Requirements:
-- Strong proficiency in Python, JavaScript/TypeScript, Next.js, React, Node.js, and SQL/PostgreSQL.
-- Experience with building scalable web apps, REST APIs, ORMs (Drizzle/Prisma), and Docker containerization.
-- Proven project work in full-stack platforms, real-time systems, or AI integrations (Gemini AI, LLMs).
-- Solid understanding of algorithms, data structures, and database optimization.
+- Strong proficiency in JavaScript/TypeScript, React.js, Node.js, Express.js, and MongoDB / SQL.
+- Strong fundamentals in Data Structures, Algorithms, and Object-Oriented Programming (C++/Python).
+- Experience building RESTful APIs, user authentication (JWT/bcrypt), and payment gateway integrations.
+- Familiarity with Git, Postman, state management, and modern responsive UI development.
 """
         print(f"  📄 Auto-generating tailored 1-page resume for {company}...")
         result = build_resume_pipeline(
             jd_text=synthetic_jd,
             company=company,
-            prompt_id=prompt_id,
+            prompt_id="star_metrics",
         )
         pdf_path = str(result["pdf_path"])
         selected = result.get("selected_projects", default_projects)

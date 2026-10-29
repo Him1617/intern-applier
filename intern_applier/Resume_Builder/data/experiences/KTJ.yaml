@@ -1,0 +1,23 @@
+﻿
+company: "Kshitij – Technology Students' Gymkhana, IIT Kharagpur"
+role: "Tech Subhead"
+duration: "August 2025 – January 2026"
+location: "IIT Kharagpur, India"
+
+bullet_points:
+  - "Co-developed the official Kshitij 2026 website, attracting 90K+ visits, and built the Campus Ambassador Portal"
+  - "Developed interactive web experiences using MERN, Three.js, React Three Fiber, and GSAP"
+  - "Coordinated technical operations for Overnite and Source Code, supporting 4,000+ attendees nationwide"
+
+tech_stack:
+  - MERN Stack
+  - React.js
+  - Three.js
+  - React Three Fiber
+  - GSAP
+
+tags:
+  - web-development
+  - technical-leadership
+  - event-operations
+  - full-stack

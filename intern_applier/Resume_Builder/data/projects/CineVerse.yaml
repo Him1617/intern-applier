@@ -1,0 +1,34 @@
+
+- name: "CineVerse – Movie Discovery Platform"
+  tagline: "Full-stack movie discovery platform with real-time TMDB data, debounced search, and trending search analytics"
+
+  bullet_points:
+    - "Developed a full-stack MERN movie discovery platform using React.js, integrating 5+ TMDB API endpoints for real-time movie exploration"
+    - "Built modular data-fetching pipelines to process and serve data from third-party TMDB APIs"
+    - "Displayed real-time movie ratings, cast details, trailers, and release information through a responsive React interface"
+    - "Implemented 700 ms debounced live search with Appwrite-powered search analytics, dynamically ranking the Top 5 trending searches"
+    - "Optimized movie discovery with Axios-powered infinite scrolling, loading 20 movies per request"
+
+  tech_stack:
+    - React.js
+    - Node.js
+    - Express.js
+    - MongoDB
+    - TMDB API
+    - Axios
+    - Appwrite
+
+  github_link: "https://github.com/Him1617"
+  live_link: "https://tmdb-api-movie-finder.vercel.app"
+
+  duration: "May 2025 – June 2025"
+
+  tags:
+    - full-stack
+    - movie-discovery
+    - mern
+    - api-integration
+    - live-search
+    - infinite-scrolling
+    - appwrite
+

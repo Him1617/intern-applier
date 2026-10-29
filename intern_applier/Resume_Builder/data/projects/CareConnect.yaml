@@ -1,0 +1,30 @@
+- name: "CareConnect – Healthcare Appointment Platform"
+  tagline: "Full-stack healthcare appointment platform with role-based access control and secure online payments"
+
+  bullet_points:
+    - "Developed a full-stack MERN platform with role-based access control (RBAC), providing secure dashboards for 3 user roles"
+    - "Built 25+ RESTful APIs using JWT and Express middleware for appointment scheduling and profile management"
+    - "Integrated Razorpay for secure payments and automated real-time booking confirmations"
+    - "Designed interfaces for doctor availability, appointment scheduling, profile management, and booking history"
+    - "Modularized backend components using Express Router and Mongoose for improved scalability and maintainability"
+
+  tech_stack:
+    - React.js
+    - Node.js
+    - Express.js
+    - MongoDB
+    - Mongoose
+    - JWT
+    - Razorpay
+
+  github_link: "https://github.com/Him1617"
+  live_link: "https://care-connect-eight-khaki.vercel.app"
+
+  duration: "May 2026 – June 2026"
+
+  tags:
+    - full-stack
+    - healthcare
+    - mern
+    - authentication
+    - payment-integration

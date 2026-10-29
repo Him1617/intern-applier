@@ -1,24 +1,22 @@
-﻿company: "GPMS Technology Pvt. Ltd."
-role: "IT Intern"
-duration: "May 2026 – Jul 2026"
-location: "Remote"
+﻿company: "Express Browser"
+role: "Business Development Intern"
+duration: "Not specified in resume"
+location: "Not specified in resume"
 
 bullet_points:
-  - "Design, developed the company's official website, delivering 20+ feature and content updates during the internship"
-  - "Implemented 10+ UI enhancements and new website sections based on business requirements and feedback"
-  - "Resolved 30+ UI bugs and cross-browser compatibility issues, improving website stability and responsiveness"
-  - "Optimized page layouts and components, ensuring compatibility across 5+ major browsers and devices"
-  - "Collaborated with 4-6 team members to deploy website updates and maintain the company's online presence"
+  - "Drove campus outreach initiatives across 4+ colleges, introducing Express Browser to 400+ students through promotional campaigns"
+  - "Managed a team of 8–12 campus representatives, coordinating outreach activities across multiple institutions"
+  - "Built partnerships with communities and organized promotional campaigns to strengthen brand presence and expand product reach"
+  - "Collaborated with the founding team to collect user feedback, identify growth opportunities, and refine campus engagement strategies"
+  - "Executed campus marketing and user acquisition campaigns to increase product awareness and drive browser adoption"
+  - "Engaged with student communities to identify growth opportunities and communicate user insights directly to the product team"
 
-tech_stack:
-  - HTML
-  - CSS
-  - JavaScript
-  - Tailwind CSS
+tech_stack: []
 
 tags:
-  - web-development
-  - frontend
-  - ui-ux
-  - bug-fixing
-  - cross-browser-compatibility
+  - business-development
+  - campus-outreach
+  - marketing
+  - team-management
+  - user-acquisition
+  - partnership-building
