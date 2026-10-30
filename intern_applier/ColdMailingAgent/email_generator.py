@@ -58,51 +58,51 @@ def get_smart_fallback_body(first_name: str, company: str, best_project: str, re
     domain = research_data.get('domain', 'high-scale systems')
     focus = research_data.get('engineering_focus', 'building robust web architecture and backend services')
     
-    # Template variant 1: AI Mock Interview focus (Next.js, React, PostgreSQL, Gemini AI)
     variant_1 = f"""Hi {first_name},
+
 
 I saw that {company} is scaling engineering to tackle {focus} in the {domain} space.
 
-I recently built an AI Mock Interview Platform—a full-stack system using Next.js, React, PostgreSQL, Drizzle ORM, and Google Gemini AI that generates personalized technical/HR interview evaluations in real time. If you have {config.YOUR_TARGET_ROLE} openings, I'd love to help your engineering team ship clean features and scalable APIs.
+I recently built CareConnect—a full-stack healthcare appointment platform using React, Node.js, Express, and MongoDB, featuring role-based dashboards for 3 user roles, 25+ REST APIs, JWT authentication, and Razorpay payment integration. If you have {config.YOUR_TARGET_ROLE} openings, I'd love to help your engineering team build reliable applications and scalable APIs.
 
-My resume is attached with direct links to my live demo and GitHub. Would you be open to a quick 5-minute chat, or could you point me to the right engineering manager?
+My resume is attached with direct links to my projects and GitHub. Would you be open to a quick 5-minute chat, or could you point me to the right engineering manager?
 
 Best regards,
 {config.YOUR_NAME}
 {config.YOUR_COLLEGE}"""
 
-    # Template variant 2: Online Code Execution Platform (Docker, Node.js, Next.js)
+ # Template variant 2: NoteVault – Backend & Security
     variant_2 = f"""Hi {first_name},
 
 I was reading about {company}'s work in {domain}, particularly your engineering focus on {focus}.
 
-Lately, I built an Online Code Execution Platform—a full-stack sandboxed execution engine using Next.js, Node.js, PostgreSQL, and Docker that securely compiles and evaluates C++, Java, Python, and JavaScript in real-time. If you're looking for a {config.YOUR_TARGET_ROLE} to help build high-throughput backends and reliable services, I'd love to contribute.
+Lately, I built NoteVault—a secure notes management platform using React, Node.js, Express, and MongoDB, implementing JWT authentication, bcrypt password hashing, 8+ REST APIs, protected CRUD operations, and dynamic keyword-based search. If you're looking for a {config.YOUR_TARGET_ROLE} to help build secure backend services and reliable applications, I'd love to contribute.
 
-Attached is my resume with GitHub repositories and live links. Would you be open to a brief conversation, or is there an engineering lead you could connect me with?
+Attached is my resume with GitHub repositories and project links. Would you be open to a brief conversation, or is there an engineering lead you could connect me with?
 
 Best regards,
 {config.YOUR_NAME}
 {config.YOUR_COLLEGE}"""
 
-    # Template variant 3: Direct problem-solving angle
+# Template variant 3: CineVerse & PathPilot – Problem Solving
     variant_3 = f"""Hi {first_name},
 
-Since {company} deals with modern engineering challenges in the {domain} space, I imagine scaling systems for {focus} is a key priority for your team.
+Since {company} deals with modern engineering challenges in the {domain} space, I imagine building scalable applications for {focus} is a key priority for your team.
 
-I'm a {config.YOUR_YEAR_AND_DEGREE} specializing in full-stack web and backend engineering. I built an AI Mock Interview Platform (Next.js, Drizzle, Gemini) and a multi-language sandboxed code execution engine with Docker. I'm actively seeking a {config.YOUR_TARGET_ROLE} role where I can hit the ground running and write production-ready code.
+I'm a {config.YOUR_YEAR_AND_DEGREE} specializing in full-stack web development and data structures and algorithms. I built CineVerse, a movie discovery platform integrating 5+ TMDB APIs, debounced live search, and infinite scrolling, alongside PathPilot, an interactive pathfinding visualizer implementing BFS, DFS, and Dijkstra's algorithm. I'm actively seeking a {config.YOUR_TARGET_ROLE} role where I can contribute to building efficient and scalable software.
 
-My resume is attached with code links. Who is the best engineering manager on your team to contact regarding internships?
+My resume is attached with project links. Who is the best engineering manager on your team to contact regarding internships?
 
 Best regards,
 {config.YOUR_NAME}
 {config.YOUR_COLLEGE}"""
 
-    # Template variant 4: InternApplier / Automation focus
+# Template variant 4: CareConnect / Full-Stack Engineering
     variant_4 = f"""Hi {first_name},
 
 I've been following {company}'s technical growth, specifically how your team handles {focus}.
 
-My background is in full-stack development at {config.YOUR_COLLEGE}, where I recently engineered InternApplier—an automated end-to-end outreach and ATS resume pipeline using Python, Flask, and Gemini AI. I'm looking for a {config.YOUR_TARGET_ROLE} opportunity and would love to help build performant backends and reliable web applications for your team.
+My background is in full-stack development at {config.YOUR_COLLEGE}, where I engineered CareConnect—a healthcare appointment platform featuring role-based access control, 25+ REST APIs, JWT-secured workflows, and Razorpay payment integration using the MERN stack. I also developed NoteVault, a secure notes management application with authenticated CRUD operations and MongoDB integration. I'm looking for a {config.YOUR_TARGET_ROLE} opportunity and would love to help build performant backends and reliable web applications for your team.
 
 My resume with links to GitHub repositories is attached. Would you be open to pointing me toward the right engineering team lead?
 
@@ -182,9 +182,11 @@ You are a cold outreach specialist who helps top-tier engineering students get i
 
 Candidate Profile:
 - Name: {config.YOUR_NAME} ({config.YOUR_YEAR_AND_DEGREE})
-- Real Project 1: AI Mock Interview Platform (Full-stack platform using Next.js, React, PostgreSQL, Drizzle ORM, Google Gemini AI, Clerk Auth)
-- Real Project 2: Online Code Execution Platform (Multi-language sandboxed code execution engine supporting C++, Java, Python, JS with Docker and Node.js)
-- Real Project 3: InternApplier (Automated AI pipeline for ATS tailoring, LaTeX compiling, and recruiter outreach using Python, Flask, Gemini AI)
+- Real Project 1: CareConnect: Full-stack healthcare appointment platform with role-based dashboards, 25+ REST APIs, JWT authentication, and Razorpay payment integration using MERN stack.
+- Real Project 2: NoteVault: Secure notes management platform featuring JWT authentication, bcrypt encryption, protected CRUD APIs, and dynamic keyword-based search using React.js, Node.js, and MongoDB.
+- Real Project 3: CineVerse: Full-stack movie discovery platform integrating TMDB APIs, debounced live search, trending search analytics, and infinite scrolling using React.js, Node.js, and Appwrite.
+- Real Project 4: PathPilot: Interactive pathfinding visualizer implementing BFS, DFS, Dijkstra’s algorithm, recursive division maze generation, and custom Min-Heap priority queue.
+
 - Target Role: {config.YOUR_TARGET_ROLE}
 
 Recipient:

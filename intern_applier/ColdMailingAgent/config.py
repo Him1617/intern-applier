@@ -47,7 +47,7 @@ YOUR_PHONE = os.getenv("YOUR_PHONE") or _profile.get("phone", "+91 9068452579")
 YOUR_LINKEDIN = os.getenv("YOUR_LINKEDIN") or _profile.get("linkedin", "https://www.linkedin.com/in/him1617")
 YOUR_GITHUB = os.getenv("YOUR_GITHUB") or _profile.get("github", "https://github.com/Him1617")
 YOUR_COLLEGE = os.getenv("YOUR_COLLEGE") or _profile.get("college", "IIT Kharagpur")
-YOUR_YEAR_AND_DEGREE = os.getenv("YOUR_YEAR_AND_DEGREE") or _profile.get("degree_status") or _profile.get("year_and_degree", "2nd-year B.Tech undergraduate at IIT Kharagpur")
+YOUR_YEAR_AND_DEGREE = os.getenv("YOUR_YEAR_AND_DEGREE") or _profile.get("degree_status") or _profile.get("year_and_degree", "3rd-year B.Tech undergraduate at IIT Kharagpur")
 YOUR_TARGET_ROLE = os.getenv("YOUR_TARGET_ROLE") or _profile.get("target_role", "Software Development Intern")
 
 # ─── Resume Attachment Strategy ──────────────────────────────────────
